@@ -1,6 +1,5 @@
 // @ts-nocheck
 const express = require('express')
-const { default: author } = require('../models/author')
 const router = express.Router()
 const Author = require('../models/author')
 
